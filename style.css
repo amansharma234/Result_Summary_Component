@@ -1,0 +1,163 @@
+@import url('https://fonts.google.com/specimen/Hanken+Grotesk');
+
+*{
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid black; */
+}
+h1{
+    color: white;
+}
+
+body{ 
+    font-family: Hanken Grotesk;
+}
+
+.headline-1{
+    color:#daccffeb;
+    margin: 0 0 1.5rem 0;
+}
+.headline-2{
+    margin-top: 1.5rem;
+}
+.headline-3{
+    margin-left: 2rem;
+    margin-top: 2.35rem;
+    margin-bottom: 1rem;
+}
+#scored{
+    color: white;
+    font-size: 60px;
+    height: 65px;
+}
+.out-of{
+    color: rgb(163, 153, 200);
+    font-size: 14px;
+}
+.text{
+    /* border: 1px solid black; */
+    color:#daccffeb;
+    width: 66%;
+    text-align: center;
+    margin-top: 0.5rem;
+    font-size: 14px;
+    font-weight: 300;
+}
+.card-display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    display: flex;
+    border-radius:30px;
+    height: 25rem;
+    margin: 12rem;
+    width: 36rem;
+    box-shadow:  29px 29px 58px #bababa,
+             -29px -29px 58px #ffffff;
+}
+.left-card{
+    border-radius: 30px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%)) ;
+}
+.right-card{
+    border-radius: 30px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.score{
+    border-radius: 50%;
+    height: 10rem;
+    width: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0)) ;
+}
+
+
+.child-1, .child-2, .child-3, .child-4{
+    width: 80%;
+    height: 2.5rem;
+    border-radius: 10px;
+    display: flex; 
+    text-align: left;
+    margin: 6px;
+    margin-left: 1.9rem;
+}
+
+.child-1{
+    background-color: hsla(0, 100%, 67%, 0.079);
+}
+.child-2{
+    background-color: hsla(39, 100%, 56%, 0.079);
+}
+.child-3{
+    background-color: hsla(166, 100%, 37%, 0.079);
+}
+.child-4{
+    background-color: hsla(234, 85%, 45%, 0.079);
+}
+
+.child-1-name, .child-2-name, .child-3-name,.child-4-name{
+    margin-top: 0.65rem;
+    margin-left: 0.5rem;
+    height: 1.5rem;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+img{
+    margin-top: 0.66rem;
+    margin-left: 0.8rem;
+    height: 1rem;
+}
+
+.child-1-name{
+    color: hsl(0, 100%, 67%);
+    margin-right: 4rem; 
+}
+.child-2-name{
+    color: hsl(39, 100%, 56%);
+    margin-right: 4.1rem; 
+}
+.child-3-name{
+    color: hsl(166, 100%, 37%);
+    margin-right: 4.8rem; 
+}
+.child-4-name{
+    color: hsl(234, 85%, 45%);
+    margin-right: 4.8rem; 
+}
+.mark{
+    margin-top: 0.59rem; 
+}
+
+.marks{
+    margin-right: 0.5rem;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+button{
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+    width: 80%;
+    border: none;
+    border-radius: 25px;
+    font-weight: 500;
+    font-size: 1rem;
+    margin-top: 2rem;
+    margin-left: 1.9rem;
+    height: 2.5rem;
+}
