@@ -46,5 +46,5 @@ Fun Fact🫡: => I created lots divs and played with flexbox process of designin
 ## Author
 
 - Frontend Mentor - [@amansharma234](https://www.frontendmentor.io/profile/amansharma234)
-- Github - [@amansharma234](https://www.github.com/profile/amansharma234)
+- Github - [@amansharma234](https://github.com/amansharma234)
 
